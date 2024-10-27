@@ -63,7 +63,7 @@ const Header = () => {
 </div>
 {/* banner section part start  */}
 <section>
-  <div className="banner-container">
+  <div className="banner-container rounded-2xl">
     <div className='flex justify-center flex-col items-center h-full px-12'>
       <h1 className="text-5xl font-bold text-white">Discover an exceptional cooking <br /> class tailored for you!</h1>
       <p className="text-lg pt-6 px-8 text-white">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
@@ -75,6 +75,13 @@ const Header = () => {
   </div>
 </section>
 {/* banner section part end    */}
+
+{/* Our Recipes section start  */}
+<section>
+  <h3 className='text-center font-semibold text-3xl pt-24'>Our Recipes</h3>
+  <p className='text-gray-600 text-lg px-40 text-center pt-5'>Our Recipes brings you a world of flavors with simple, easy-to-follow recipes crafted for every occasion. From traditional dishes to modern favorites, our step-by-step guides make cooking at home a delightful and effortless experience. Discover, cook, and enjoy!</p>
+</section>
+{/* Our Recipes section end  */}
 
       </div>
     );
