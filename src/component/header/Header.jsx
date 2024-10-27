@@ -1,4 +1,4 @@
-
+import './Header.css'
 const Header = () => {
     return (
         <div>
@@ -56,12 +56,27 @@ const Header = () => {
           <a href="#">
           <img className="rounded-full"
             alt="Tailwind CSS Navbar component"
-            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+            src="https://cdn-icons-png.flaticon.com/512/3686/3686930.png" />
           </a>
         </div>
   </div>
 </div>
-        </div>
+{/* banner section part start  */}
+<section>
+  <div className="banner-container">
+    <div className='flex justify-center flex-col items-center h-full px-12'>
+      <h1 className="text-5xl font-bold text-white">Discover an exceptional cooking <br /> class tailored for you!</h1>
+      <p className="text-lg pt-6 px-8 text-white">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
+      <div className="mt-10">
+      <button className="btn btn-success me-6 rounded-3xl">Explore now</button>
+      <button className="btn btn-outline rounded-3xl text-white bg-transparent">Our Feedback</button>
+      </div>
+    </div>
+  </div>
+</section>
+{/* banner section part end    */}
+
+      </div>
     );
 };
 

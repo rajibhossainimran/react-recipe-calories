@@ -1,0 +1,8 @@
+.banner-container{
+    margin-top: 50px;
+    background-image: url(../../assets/image/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
