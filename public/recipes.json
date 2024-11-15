@@ -1,0 +1,56 @@
+[
+    {
+      "recipe_image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2014/2/7/1/FNM_030114-Spaghetti-Carbonara-Recipe-h_s4x3.jpg.rend.hgtvcom.616.462.suffix/1391877822709.webp",
+      "recipe_id": 1,
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "Classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+      "ingredients": ["200 g spaghetti", "100 g pancetta", "2 large eggs", "50 g grated Parmesan", "Salt", "Pepper"],
+      "preparing_time": "20 min",
+      "calories": "400 calories"
+    },
+    {
+      "recipe_image": "https://i.ytimg.com/vi/P0qv_fuGIoo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCE23gVRXmsN-JQqqgNUB8smEIcBg",
+      "recipe_id": 2,
+      "recipe_name": "Chicken Curry",
+      "short_description": "A flavorful and spicy chicken curry with Indian spices.",
+      "ingredients": ["500 g chicken", "200 ml coconut milk", "2 tbsp curry powder", "1 onion", "2 cloves garlic", "Salt"],
+      "preparing_time": "45 min",
+      "calories": "350 calories"
+    },
+    {
+      "recipe_image": "https://herbivoreskitchen.com/wp-content/uploads/2020/09/IMG_0095-2-500x375.jpg",
+      "recipe_id": 3,
+      "recipe_name": "Vegan Buddha Bowl",
+      "short_description": "A healthy and balanced bowl filled with vegetables, grains, and protein.",
+      "ingredients": ["100 g quinoa", "50 g chickpeas", "1 avocado", "50 g kale", "1 tbsp tahini", "Salt", "Pepper"],
+      "preparing_time": "25 min",
+      "calories": "300 calories"
+    },
+    {
+      "recipe_image": "https://recipes.net/wp-content/uploads/2023/07/mexican-salmon-salad_41308f60489cfea622f0346b53a85720-500x375.jpeg",
+      "recipe_id": 4,
+      "recipe_name": "Grilled Salmon Salad",
+      "short_description": "Fresh salad with grilled salmon, greens, and a light vinaigrette.",
+      "ingredients": ["150 g salmon fillet", "50 g mixed greens", "10 cherry tomatoes", "1 tbsp olive oil", "Salt", "Pepper"],
+      "preparing_time": "20 min",
+      "calories": "250 calories"
+    },
+    {
+      "recipe_image": "https://www.thedailymeal.com/img/gallery/classic-pancakes/pancakes-shutterstock.JPG",
+      "recipe_id": 5,
+      "recipe_name": "Classic Pancakes",
+      "short_description": "Fluffy pancakes made with basic ingredients, perfect for breakfast.",
+      "ingredients": ["200 g flour", "300 ml milk", "2 large eggs", "1 tbsp sugar", "1 tsp baking powder", "Pinch of salt"],
+      "preparing_time": "15 min",
+      "calories": "220 calories"
+    },
+    {
+      "recipe_image": "https://www.marthastewart.com/thmb/TqdvJ-yZ_VA9I86P7VXA1sOY6O0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/msledf_1003_beeftaco_horiz-892fe13aeba549d99495e27abc1d68f7.jpgitokb2Re7eO8",
+      "recipe_id": 6,
+      "recipe_name": "Beef Tacos",
+      "short_description": "Mexican-style tacos filled with seasoned beef, cheese, and fresh toppings.",
+      "ingredients": ["300 g ground beef", "6 taco shells", "50 g shredded cheese", "1 tomato", "Lettuce", "Sour cream"],
+      "preparing_time": "30 min",
+      "calories": "430 calories"
+    }
+  ]
