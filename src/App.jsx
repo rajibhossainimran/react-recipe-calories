@@ -2,6 +2,7 @@
 import './App.css'
 import Header from './component/header/Header'
 import Recipes from './component/recipies/Recipes'
+import WantCook from './component/wantcook/WantCook'
 
 function App() {
 
@@ -9,7 +10,10 @@ function App() {
   return (
     <>
     <Header></Header>
-    <Recipes></Recipes>
+    <div className='md:flex'>
+      <Recipes></Recipes>
+      <WantCook></WantCook>
+    </div>
     </>
   )
 }
