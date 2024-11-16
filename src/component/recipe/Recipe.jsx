@@ -19,13 +19,23 @@ const Recipe = ({recipe}) => {
             ))}
         </ul>
         <div className='flex  py-3'>
-        <FaRegClock /><p  className='me-5'>{preparing_time}</p>
-        <FaFire /><p>{calories}</p>
+            <div className='flex justify-center items-center'> <FaRegClock /><p  className='ms-2'>{preparing_time}</p>
+            </div>
+            <div className='flex justify-center items-center'> <FaFire /><p  className='ms-2'>{calories}</p>
+            </div>
+    
         </div>
         </div>
     );
 };
-Recipe.prototype ={
-    recipe:PropTypes.object.isRequired
-}
+Recipe.propTypes = {
+    recipe: PropTypes.shape({
+        recipe_name: PropTypes.string.isRequired,
+        recipe_image: PropTypes.string.isRequired,
+        short_description: PropTypes.string.isRequired,
+        ingredients: PropTypes.arrayOf(PropTypes.string).isRequired,
+        preparing_time: PropTypes.string.isRequired,
+        calories: PropTypes.string.isRequired,
+    }).isRequired,
+};
 export default Recipe;
