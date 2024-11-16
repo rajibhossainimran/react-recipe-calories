@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types';
-import './Recipe.css'
+import './Recipe.css';
+import { FaRegClock } from "react-icons/fa";
+import { FaFire } from "react-icons/fa";
+
 
 const Recipe = ({recipe}) => {
-    const {recipe_name,recipe_image,short_description,ingredients} = recipe;
+    const {recipe_name,recipe_image,short_description,ingredients,preparing_time,calories} = recipe;
     return (
         <div className='recipe-container'>
             <img src={recipe_image} alt="image" />
@@ -15,6 +18,10 @@ const Recipe = ({recipe}) => {
                 <li key={index}>{ingre}</li>
             ))}
         </ul>
+        <div className='flex  py-3'>
+        <FaRegClock /><p  className='me-5'>{preparing_time}</p>
+        <FaFire /><p>{calories}</p>
+        </div>
         </div>
     );
 };
