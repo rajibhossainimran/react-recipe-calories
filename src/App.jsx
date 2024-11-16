@@ -16,7 +16,6 @@ function App() {
 
   return (
     <>
-    {console.log(wantToCooks)}
     <Header></Header>
     <div className='md:flex'>
       <Recipes handleWantToCooks={handleWantToCooks}></Recipes>

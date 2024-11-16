@@ -13,6 +13,7 @@ const WantCooks = ({wantToCooks}) => {
                         <th className="py-3 px-6 font-semibold text-gray-600 border-b">Name</th>
                         <th className="py-3 px-6 font-semibold text-gray-600 border-b">Time</th>
                         <th className="py-3 px-6 font-semibold text-gray-600 border-b">Calories</th>
+                        <th ></th>
                     </tr>
                 </thead>
                 <tbody>

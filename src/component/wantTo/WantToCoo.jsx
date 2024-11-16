@@ -6,12 +6,15 @@ const WantToCoo = ({cooks}) => {
     return (
         <div>
     
-       <ol>
-       <tr className="hover:bg-gray-50">
+       <ol className="list-decimal pl-6 text-gray-800 space-y-2">
+       <li>
+        <tr className="hover:bg-gray-50">
             <td className="py-3 px-6 border-b">{recipe_name}</td>
             <td className="py-3 px-6 border-b">{preparing_time}</td>
             <td className="py-3 px-6 border-b">{calories}</td>
+            <td className="py-3 px-6 border-b"><button className="btn btn-success rounded-xl">preparing</button></td>
         </tr>
+       </li>
        </ol>
 
         </div>
