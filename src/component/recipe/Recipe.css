@@ -1,7 +1,14 @@
 .recipe-container{
 
+border: 1px solid rgb(214, 214, 214);
+padding: 10px;
+width: 350px;
+margin-bottom: 20px;
+border-radius: 20px;
 }
 .recipe-container img{
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 5px auto;
 }
