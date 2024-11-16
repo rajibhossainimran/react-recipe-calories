@@ -4,7 +4,7 @@ import { FaRegClock } from "react-icons/fa";
 import { FaFire } from "react-icons/fa";
 
 
-const Recipe = ({recipe}) => {
+const Recipe = ({recipe,handleWantToCooks}) => {
     const {recipe_name,recipe_image,short_description,ingredients,preparing_time,calories} = recipe;
     return (
         <div className='recipe-container'>
@@ -18,24 +18,28 @@ const Recipe = ({recipe}) => {
                 <li key={index}>{ingre}</li>
             ))}
         </ul>
-        <div className='flex  py-3'>
+        <div className='flex justify-between py-3 me-20'>
             <div className='flex justify-center items-center'> <FaRegClock /><p  className='ms-2'>{preparing_time}</p>
             </div>
             <div className='flex justify-center items-center'> <FaFire /><p  className='ms-2'>{calories}</p>
             </div>
     
         </div>
+        <button onClick={()=>handleWantToCooks(recipe)} className="btn btn-success me-6 rounded-3xl">Want to cook</button>
         </div>
     );
 };
 Recipe.propTypes = {
     recipe: PropTypes.shape({
+        handleWantToCooks: PropTypes.func,
         recipe_name: PropTypes.string.isRequired,
+        recipe_id: PropTypes.number.isRequired,
         recipe_image: PropTypes.string.isRequired,
         short_description: PropTypes.string.isRequired,
         ingredients: PropTypes.arrayOf(PropTypes.string).isRequired,
         preparing_time: PropTypes.string.isRequired,
         calories: PropTypes.string.isRequired,
+        
     }).isRequired,
 };
 export default Recipe;

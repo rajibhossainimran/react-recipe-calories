@@ -79,7 +79,7 @@ const Header = () => {
 {/* Our Recipes section start  */}
 <section>
   <h3 className='text-center font-semibold text-3xl pt-24'>Our Recipes</h3>
-  <p className='text-gray-600 text-lg px-40 text-center pt-5'>Our Recipes brings you a world of flavors with simple, easy-to-follow recipes crafted for every occasion. From traditional dishes to modern favorites, our step-by-step guides make cooking at home a delightful and effortless experience. Discover, cook, and enjoy!</p>
+  <p className='text-gray-600 text-lg px-40 text-center py-5'>Our Recipes brings you a world of flavors with simple, easy-to-follow recipes crafted for every occasion.</p>
 </section>
 {/* Our Recipes section end  */}
 
