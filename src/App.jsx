@@ -10,8 +10,14 @@ function App() {
   const [wantToCooks,setWantToCooks]= useState([]);
 
   const handleWantToCooks = cooks =>{
-    const neewWantCooks = [...wantToCooks,cooks];
-    setWantToCooks(neewWantCooks);
+    if (wantToCooks.includes(cooks)) {
+      toast.error("You have already selected this recipe!");
+    } else {
+      setWantToCooks([...wantToCooks,cooks]);
+      // toast.success(`${recipe} added to your list!`);
+    }
+    // const neewWantCooks = [...wantToCooks,cooks];
+    // setWantToCooks(neewWantCooks);
   }
 
   return (
