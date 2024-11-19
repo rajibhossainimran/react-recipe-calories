@@ -7,7 +7,7 @@ const CurrentlyCooking = ({currentCooking}) => {
 
     return (
         <div>
-            <h1 className="font-bold text-xl py-3 text-center py-4">{`Currently Cooking :${currentCooking.length}`}</h1>
+            <h1 className="font-bold text-xl text-center py-4">{`Currently Cooking :${currentCooking.length}`}</h1>
             <table className="min-w-full bg-white border border-gray-200 rounded-lg shadow-md">
                 <thead>
                     <tr className="bg-gray-100 text-left">
