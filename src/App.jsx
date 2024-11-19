@@ -33,7 +33,8 @@ function App() {
     toast.info(`${current.recipe_name} is now being prepared!`);
     console.log(current);
   }
-
+  const totalPrepTime = currentCooking.reduce((total, recipe) => total + recipe.prep_time, 0);
+  const totalCalories = currentCooking.reduce((total, recipe) => total + recipe.calories, 0);
   return (
     <>
     <Header></Header>
@@ -47,6 +48,8 @@ function App() {
 
       <CurrentlyCooking 
       currentCooking={currentCooking}
+      totalPrepTime={totalPrepTime}
+      totalCalories={totalCalories}
       ></CurrentlyCooking>
       </div>
     </div>
