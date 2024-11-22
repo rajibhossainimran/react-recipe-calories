@@ -65,8 +65,8 @@ const Header = () => {
 <section>
   <div className="banner-container rounded-2xl">
     <div className='flex justify-center flex-col items-center h-full px-12'>
-      <h1 className="text-5xl font-bold text-white">Discover an exceptional cooking <br /> class tailored for you!</h1>
-      <p className="text-lg pt-6 px-8 text-white">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
+      <h1 className="text-5xl font-bold text-white text-center">Discover an exceptional cooking <br /> class tailored for you!</h1>
+      <p className="text-lg pt-6 px-8 text-white text-center">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
       <div className="mt-10">
       <button className="btn btn-success me-6 rounded-3xl">Explore now</button>
       <button className="btn btn-outline rounded-3xl text-white bg-transparent">Our Feedback</button>
